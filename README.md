@@ -32,5 +32,5 @@ Javascript version of dataproject.
 
 1) Clone the repository
 2) Run the python file
-3) open browser and go to [http://0.0.0.0:8000/](http://0.0.0.0:8000/)
+3) open browser and go to [http://localhost:8000/](http://localhost:8000/)
 4) Plot specifications can be obtained in the dataproject-python README
