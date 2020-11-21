@@ -5,24 +5,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://code.highcharts.com/highcharts.js"></script>
-    <script src="script.js"></script>
+    <script src="myplots.js"></script>
     <title>jsproject</title>
 
     
 </head>
     <body>
-        <h1><b>UN population</b></h1>
-        <figure class="highcharts-figure">            
-            <h2>Indian population plot</b></h2>
-            <div id="container" style="width:100%; height:500px;"></div>
-            <h2>Asean population plot</h2>
-            <div id="container-2" style="width:100%; height:800px;"></div>
+        <h1 class="jumbotron text-center">UN population estimates</h1>
+
+        <figure class="highcharts-figure">
+        <div class="container">       
+            <div class="row">
+                <div class="col">
+                    <h2>Indian population plot</b></h2>
+                    <div class="container" id="india"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h2>Asean population plot</h2>
+                    <div class="container" id="asean"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h2>saarc population plot</h2>
+                    <div class="container" id="saarc"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h2>Asean group plot</h2>
+                    <div class="container" id="asean_group"></div>
+                </div>
+            </div>                     
         </figure>       
-    </body>
-    
-    
-    
+    </body>   
 </html>
 
     
