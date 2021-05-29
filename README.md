@@ -1,6 +1,5 @@
 # dataproject-javascript
-
-Javascript version of dataproject.
+python+javascript
 
 ## Objective
 1) To write a python program that takes the CSV file(s) as input, computes the data required for plots, and writes a JSON file as output.
